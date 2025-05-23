@@ -1,0 +1,59 @@
+body {
+    overflow-x: hidden;
+}
+
+.nav-style {
+    background-color: #255f5f;
+    border: none;
+    width: 100%;
+    z-index: 10;
+}
+
+nav {
+    margin: 0px !important;
+    position: fixed !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    /* color: rgb(195, 255, 195) !important; */
+    background-color: transparent !important;
+      text-decoration-line: underline;
+  text-decoration-style: solid;
+    /* font-weight: bold; */
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    font-size: 18px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+      text-decoration-line: underline;
+  text-decoration-style: solid;
+    /* color: rgb(195, 255, 195) !important; */
+}
+
+.navbar-brand {
+    width: 200px;
+    background-color: bisque;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.navbar-brand:hover{
+    background-color: bisque !important;
+
+}
+
+.navbar-brand a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbarand-name {
+    margin-left: 60px;
+}
+
+.website-color {
+    color: green;
+}

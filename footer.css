@@ -1,0 +1,39 @@
+.form-sections{
+    background-color: #255f5f;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.input-style{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 10px;
+    border: none;
+    padding: 20px;
+}
+.input-style::placeholder{
+    text-align: center;
+}
+
+.input-style-messge{
+    width: 530px;
+     border-radius: 20px;
+    margin: 10px;
+    border: none;
+    padding: 20px;
+}
+.submit-btn{
+    padding: 12px;
+     margin: 10px;
+     background-color: #009688;
+     border: none;
+     font-size: 18px;
+     color: white;
+     border-radius: 10px;
+}
+
+/* Location side  */
+.location-section{
+    background-color: #009688;
+}
