@@ -5,17 +5,27 @@
     <title>UnWita</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- Bootstrap link  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!-- Nav bar styles  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Font icon link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Externel Navbar link  -->
     <link rel="stylesheet" href="navbar.css">
     <!-- Externel index style  -->
     <link rel="stylesheet" href="index.css">
     <!-- Externel Footer style  -->
     <link rel="stylesheet" href="footer.css">
+    <!-- Externel Media Query style  -->
+    <link rel="stylesheet" href="mediaQuery.css">
+    <!-- Animation  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -30,15 +40,16 @@
                     <span class="icon-bar"></span>
                 </button>
                 <div class="navbar-brand">
-                    <a class="navbarand-name" href="#">Unwita</a>
+                    <a class="navbarand-name" href="#"><img class="unwita-logo-img" src="images/Unwitainsights_logo.png"
+                            alt=""></a>
                 </div>
             </div>
             <div class="collapse navbar-collapse navbar-right" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#Products">Products</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Footer">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -46,128 +57,163 @@
 
     <!-- Home Section  -->
     <div class="home-section">
-        <div class="row">
-            <div class="col-sm-5">
-                <div class="home-style-left-col">
-                    <h1 class="website-color">We Bridge</h1>
-                    <h1 class="website-color">The Gaps</h1>
-                    <h3>Simplifying Your Journey</h3>
-                </div>
-            </div>
-            <div class="col-sm-7">
-                <img class="home-section-img-style" src="images/unwita-home-section-img.png" alt="">
-            </div>
+        <div class="row custom-col-change">
+    <div class="col-sm-6 custom-col-8">
+        <div class="home-style-left-col animate__animated animate__fadeInTopLeft" data-aos="fade">
+            <h1>We Bridge <br> The Gaps</h1>
+            <p class="home-style-text">Simplifying Your Journey</p>
+        </div>
+    </div>
+    <div class="col-sm-6 custom-col-4">
+        <img class="home-section-img-style" src="images/landing page.png" alt="">
+    </div>
+</div>
+
+    </div>
+
+
+    <div data-aos="slide-up">
+        <div class="texts-section first-paragraph">
+            <p>We use innovative approach with scientific methods to solve real world problems by</p>
+            <p>understanding the need and identifying the most practical and sensible solution</p>
+        </div>
+        <div class="texts-section first-paragraph">
+            <p>Our user-centric scientific and technological solutions are designed to increase transparency</p>
+            <p>and traceability in operational workflows for better accountability and cost reduction</p>
+        </div>
+
+        <div class="texts-section last-paragraph">
+            <p>Status quo is not an option.</p>
+            <p>Quality work for our business partners.</p>
         </div>
     </div>
 
-
-
-    <div class="texts-section">
-        <p>We use innovative approach with scientific methods to solve real world problems by</p>
-        <p>understanding the need and identifying the most practical and sensible solution</p>
-    </div>
-    <div class="texts-section">
-        <p>Our user-centric scientific and technological solutions are designed to increase transparency</p>
-        <p>and traceability in operational workflows for better accountability and cost reduction</p>
-    </div>
-
-    <div class="texts-section">
-        <h3>Status quo is not an option.</h3>
-        <h3>Quality work for our business partners.</h3>
-    </div>
     <div class="container">
         <hr class="hr-style">
     </div>
 
     <!-- OUR PRODUCTS  -->
-    <div class="our-products-section text-center">
-        <h2>Our Products</h2>
+    <div class="our-products-section text-center" id="Products">
+        <h2 class="product-head">Our Products</h2>
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="arch-container">
+                    <div class="arch-container" data-aos="fade-right">
                         <div class="arch-top"></div>
                         <div class="arch-content">
                             <h3>Askpert</h3>
-                            <i class="fa fa-sitemap"></i>
+                            <img src="images/askpert.png" class="arch-content-img" alt="">
                         </div>
                     </div>
                 </div>
 
                 <div class="col-sm-6">
-                    <p class="box-container-text">Address the challenge of managing expert knowledge, enhancing
-                        collaboration across teams,
-                        reducing training costs for less experienced employees, and minimizing the time spent searching
-                        for information, an AI-based product can serve as an effective solution.</p>
+                    <div data-aos="fade-left">
+                        <p class="box-container-text small-level-box-content">
+                            <b> AskPert:</b> Address the challenge or managing expert
+                            knowledge, enhancing collaboration across teams, reducing training costs for less
+                            experienced employees, and minimizing the time spent searching for information, an AI-based
+                            product can serve as an effective solution.
+                            ASKPERT skillfully fuses retrieval and generation, Retrieval-Augmented Generation (RAG)
+                            method to tackle organization, specific information retention issues. It serves as an expert
+                            guide, offering accurate and pertinent information for the given domain, which improves
+                            decision- making and knowledge accessibility.
+                        </p>
 
-                    <p class="box-container-text">
-                        ASKPERT skillfully fuses retrieval and generation, Retrieval-Augmented Generation (RAG) method
-                        to tackle organization-specific information retention issues. It serves as an expert guide,
-                        offering accurate and pertinent information for the given domain, which improves decision-making
-                        and knowledge accessibility.
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- The Box column section  -->
-    <div class="container industry-cards row justify-content-center">
-        <div class="col-md-3 col-sm-6 mb-4">
+    <!-- The Box column Desktop view section  -->
+    <div class="container box-column-container industry-cards row justify-content-center desktop-box-section" data-aos="fade-up">
+        <div class="col-md-3 col-6 col-sm-6 mb-4">
             <div class="card-style">
-                <img src="images/unwita-home-image.jpg" alt="Automotive">
+                <img src="images/automotive.png" alt="Automotive">
                 <div class="card-label">Automotive</div>
             </div>
         </div>
 
-        <div class="col-md-3 col-sm-6 mb-4">
+        <div class="col-md-3 col-6 col-sm-6 mb-4">
             <div class="card-style">
-                <img src="images/unwita-home-image.jpg" alt="Oil & Gas">
+                <img src="images/oil & gas.png" alt="Oil & Gas">
                 <div class="card-label">Oil & Gas</div>
             </div>
         </div>
 
-        <div class="col-md-3 col-sm-6 mb-4">
+        <div class="col-md-3 col-6 col-sm-6 mb-4">
             <div class="card-style">
-                <img src="images/unwita-home-image.jpg" alt="Pharma">
+                <img src="images/pharma.png" alt="Pharma">
                 <div class="card-label">Pharma</div>
             </div>
         </div>
 
-        <div class="col-md-3 col-sm-6 mb-4">
+        <div class="col-md-3 col-6 col-sm-6 mb-4">
             <div class="card-style">
-                <img src="images/unwita-home-image.jpg" alt="Manufacturing">
+                <img src="images/manufacturing.png" alt="Manufacturing">
                 <div class="card-label">Manufacturing</div>
             </div>
         </div>
     </div>
+
+    <!-- The Box column Mobile view section  -->
+    <!-- <div class="container row mobile-view-box-section" data-aos="fade-up">
+        <div class="col-6">
+            <div class="card-style2 first-card">
+                <img src="images/unwita-home-image.jpg" alt="Automotive">
+                <div class="card-label2">Automotive</div>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="card-style2 above-card">
+                <img src="images/unwita-home-image.jpg" alt="Oil & Gas">
+                <div class="card-label2">Oil & Gas</div>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="card-style2 last-card">
+                <img src="images/unwita-home-image.jpg" alt="Pharma">
+                <div class="card-label2">Pharma</div>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="card-style2 ">
+                <img src="images/unwita-home-image.jpg" alt="Manufacturing">
+                <div class="card-label2">Manufacturing</div>
+            </div>
+        </div>
+    </div> -->
 
     <!-- Record management system  -->
     <div class="our-products-section text-center">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="arch-container">
+                    <div class="arch-container" data-aos="fade-right">
                         <div class="arch-top"></div>
                         <div class="arch-content">
-                            <h3>Record Management System</h3>
-                            <i class="fa fa-sitemap"></i>
+                            <h3 class="the-box-head">Record Management System</h3>
+                            <img src="images/askpert.png" class="arch-content-img" alt="">
                         </div>
                     </div>
                 </div>
 
                 <div class="col-sm-6">
-                    <p class="box-container-text">Address the challenge of managing expert knowledge, enhancing
-                        collaboration across teams,
-                        reducing training costs for less experienced employees, and minimizing the time spent searching
-                        for information, an AI-based product can serve as an effective solution.</p>
-
-                    <p class="box-container-text">
-                        ASKPERT skillfully fuses retrieval and generation, Retrieval-Augmented Generation (RAG) method
-                        to tackle organization-specific information retention issues. It serves as an expert guide,
-                        offering accurate and pertinent information for the given domain, which improves decision-making
-                        and knowledge accessibility.
-                    </p>
+                    <div data-aos="fade-left">
+                        <p class="box-container-text">
+                            • Our RMS helps to manage crucial records efficiently. RMS is critical for maintaining
+                            transparency and reducing the risk of tampering and fraud. <br><br>
+                            •By implementing streamlined processes and utilizing advanced block chain technology,
+                            organizations can ensure accurate record-keeping and easy access to information. <br><br>
+                            • This proactive approach will not only build trust but also enhance the accountability
+                            within the organization. <br><br>
+                            • Prioritize efficient record management to create a more secure and transparent operational
+                            environment.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -175,82 +221,88 @@
 
     <!-- Block chain  -->
     <div class="container">
-        <h3 class="text-center">Why BlockChain for RMS?</h3>
-        <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
-            <p><strong><em>TRUST AND TRANSPARENCY:</em></strong> By providing a decentralized, immutable ledger that
+        <h3 class="text-center block-chain-head">Why BlockChain for RMS?</h3>
+        <div style="font-family: lora; line-height: 1.6; color: #295757;font-style: italic;font-size: 18px;">
+            <p data-aos="fade-up">
+                <strong><em>TRUST AND TRANSPARENCY:</em></strong> By providing a decentralized, immutable ledger that
                 ensures data integrity, it enables clients to securely track transactions and verify authenticity
-                without relying on intermediaries.</p>
+                without relying on intermediaries.
+            </p>
 
-            <p><strong><em>MINIMIZE MANUAL INTERVENTION:</em></strong> Blockchain streamlines operations, minimizes
+            <p data-aos="fade-up">
+                <strong><em>MINIMIZE MANUAL INTERVENTION:</em></strong> Blockchain streamlines operations, minimizes
                 errors, and cuts costs, empowering businesses to resolve inefficiencies in supply chains, financial
-                systems, and contractual agreements.</p>
+                systems, and contractual agreements.
+            </p>
 
-            <p><strong><em>ENHANCE SECURITY:</em></strong> It tackles fraud and enhances security through cryptographic
+            <p data-aos="fade-up">
+                <strong><em>ENHANCE SECURITY:</em></strong> It tackles fraud and enhances security through cryptographic
                 encryption and distributed consensus, offering clients a robust solution to safeguard sensitive
-                information and mitigate risks related to cyber threats or data breaches.</p>
+                information and mitigate risks related to cyber threats or data breaches.
+            </p>
 
-            <p><strong><em>TRACEABILITY:</em></strong> From enabling seamless cross-border payments to ensuring
+            <p data-aos="fade-up">
+                <strong><em>TRACEABILITY:</em></strong> From enabling seamless cross-border payments to ensuring
                 traceability in sustainability efforts, blockchain empowers clients to innovate, build stakeholder
-                confidence, and future-proof their operations in an increasingly digital and interconnected world.</p>
+                confidence, and future-proof their operations in an increasingly digital and interconnected world.
+            </p>
+
         </div>
     </div>
 
     <!-- The Box column section  -->
-    <div class="container industry-cards row justify-content-center">
+    <div class="container industry-cards row justify-content-center" data-aos="fade-up">
         <div class="col-md-3 col-sm-6 mb-4">
             <div class="card-style">
-                <img src="images/unwita-home-image.jpg" alt="Automotive">
+                <img src="images/Land records.png" alt="Automotive">
                 <div class="card-label">Land Records</div>
             </div>
         </div>
 
         <div class="col-md-3 col-sm-6 mb-4">
             <div class="card-style">
-                <img src="images/unwita-home-image.jpg" alt="Oil & Gas">
+                <img src="images/healthcare.png" alt="Oil & Gas">
                 <div class="card-label">Healthcare</div>
             </div>
         </div>
 
         <div class="col-md-3 col-sm-6 mb-4">
             <div class="card-style">
-                <img src="images/unwita-home-image.jpg" alt="Pharma">
+                <img src="images/education.png" alt="Pharma">
                 <div class="card-label">Education</div>
             </div>
         </div>
 
         <div class="col-md-3 col-sm-6 mb-4">
             <div class="card-style">
-                <img src="images/unwita-home-image.jpg" alt="Manufacturing">
+                <img src="images/agriculuture.png" alt="Manufacturing">
                 <div class="card-label">Agriculture</div>
             </div>
         </div>
     </div>
 
     <!-- OUR SERVICES  -->
-    <div class="our-products-section text-center">
+    <div class="our-products-section text-center" id="Services">
+        <h2 class="product-head">Our Services</h2>
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="arch-container">
+                    <div class="arch-container" data-aos="fade-right">
                         <div class="arch-top"></div>
                         <div class="arch-content">
-                            <h3>Data Science</h3>
-                            <i class="fa fa-sitemap"></i>
+                            <h3>Data Science & Analytics</h3>
+                            <!-- <i class="fas fa-network-wired"></i> -->
+                             <img src="images/network.png" class="arch-content-img" alt="">
                         </div>
                     </div>
                 </div>
 
-                <div class="col-sm-6">
-                    <p class="box-container-text">Address the challenge of managing expert knowledge, enhancing
-                        collaboration across teams,
-                        reducing training costs for less experienced employees, and minimizing the time spent searching
-                        for information, an AI-based product can serve as an effective solution.</p>
-
-                    <p class="box-container-text">
-                        ASKPERT skillfully fuses retrieval and generation, Retrieval-Augmented Generation (RAG) method
-                        to tackle organization-specific information retention issues. It serves as an expert guide,
-                        offering accurate and pertinent information for the given domain, which improves decision-making
-                        and knowledge accessibility.
+                <div class="col-sm-6" data-aos="fade-left">
+                    <p class="box-container-text small-level-box-content">
+                        • We help our partners to arrive at data driven decisions to enhance their performance. <br><br>
+                        • We explore data sources and analyze them using advanced statistical models, machine learning,
+                        and predictive analysis. <br><br>
+                        • We transform data into meaningful insights via data mining and visualizations. <br><br>
                     </p>
                 </div>
             </div>
@@ -261,26 +313,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="arch-container">
+                    <div class="arch-container" data-aos="fade-right">
                         <div class="arch-top"></div>
                         <div class="arch-content">
                             <h3>Website Development</h3>
-                            <i class="fa fa-sitemap"></i>
+                           <img src="images/askpert.png" class="arch-content-img" alt="">
                         </div>
                     </div>
                 </div>
 
-                <div class="col-sm-6">
-                    <p class="box-container-text">Address the challenge of managing expert knowledge, enhancing
-                        collaboration across teams,
-                        reducing training costs for less experienced employees, and minimizing the time spent searching
-                        for information, an AI-based product can serve as an effective solution.</p>
-
+                <div class="col-sm-6" data-aos="fade-left">
                     <p class="box-container-text">
-                        ASKPERT skillfully fuses retrieval and generation, Retrieval-Augmented Generation (RAG) method
-                        to tackle organization-specific information retention issues. It serves as an expert guide,
-                        offering accurate and pertinent information for the given domain, which improves decision-making
-                        and knowledge accessibility.
+                        • In today's digital age, a well-crafted website is essential for establishing credibility,
+                        enhancing customer engagement, and driving business growth. <br> <br>
+                        • Our Website Development service empowers businesses to establish a strong online presence
+                        through clean design, responsive layouts, and optimized performance. By integrating modern
+                        technologies and industry best practices, we ensure each website is fast, secure, and easy to
+                        maintain. <br> <br>
+                        •Through our structured development process, we reduce the
+                        risk of design inconsistencies, poor user experience, and maintenance challenges. This
+                        streamlined approach increases reliability and ensures your website performs seamlessly across
+                        all devices. <br><br>
+                        • Investing in a professionally developed website is not just about aesthetics-it's about
+                        functionality, trust, and delivering value to your audience. <br>
                     </p>
                 </div>
             </div>
@@ -288,50 +343,136 @@
     </div>
 
     <!-- FOOTER   -->
-    <div class="footer-section">
+    <!-- Desktop view  -->
+    <div class="footer-section" id="Footer">
         <div class="row">
-            <div class="col-sm-6">
-                <div class="location-section">
-                    <h2>dfjj</h2>
+            <div class="col-sm-5">
+                <div class="correct-alignment">
+                    <div class="contact-item">
+                        <p class="contact-text">reachus@unwita.com</p>
+                        <div class="diamond-shape"></div>
+                    </div>
+                    <div class="contact-item">
+                        <p class="contact-text phone-text">+91 87540 16131</p>
+                        <div class="diamond-shape"></div>
+                    </div>
                 </div>
             </div>
-            </style>
 
-            <div class="verital-line-style"></div>
-            <div class="col-sm-6">
+            <div class="col-sm-7">
                 <div class="form-sections">
-                <h1>Drop Us a line!</h1>
-                <p>Let Us Know What You Think!</p>
-                <form action="">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <input type="text" class="input-style" placeholder="Name">
+                    <h1 class="text-center form-head">Drop Us a line!</h1>
+                    <p class="form-sub-head">Let Us Know What You Think!</p>
+                    <form action="" class="form-style">
+                        <div class="row form-row-style">
+                            <div class="col-xl-6 col-sm-6 col-12">
+                                <input type="text" class="input-style" placeholder="Name">
+                            </div>
+                            <div class="col-xl-6 col-sm-6 col-12">
+                                <input type="email" class="input-style" placeholder="Email">
+                            </div>
                         </div>
-                        <div class="col-sm-6">
-                            <input type="email" class="input-style" placeholder="Email">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <input type="number" class="input-style" placeholder="Phone">
+                        <div class="row form-row-style">
+                            <div class="col-xl-6 col-sm-6 col-12">
+                                <input type="number" class="input-style" placeholder="Phone">
 
-                        </div>
-                        <div class="col-sm-6">
-                            <input type="text" class="input-style" placeholder="Subject">
+                            </div>
+                            <div class="col-xl-6 col-sm-6 col-12">
+                                <input type="text" class="input-style" placeholder="Subject">
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <textarea class="input-style-messge" placeholder="Messege"></textarea>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <textarea class="input-style-messge" placeholder="Messege"></textarea>
+                            </div>
                         </div>
-                    </div>
-                    <button class="submit-btn">Submit Messege</button>
-                </form>
+                        <button class="submit-btn">Submit Messege</button>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- max width 768px view  -->
+    <div class="footer-section2" id="Footer">
+        <div class="row">
+            <div class="col-12">
+                <div class="correct-alignment">
+                    <div class="row location-mobile-view">
+                        <div class="col-6">
+                            <div class="contact-item">
+                                <p class="contact-text">reachus@unwita.com</p>
+                                <div class="diamond-shape"></div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="contact-item">
+                                <p class="contact-text phone-text">+91 87540 16131</p>
+                                <div class="diamond-shape"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col12">
+                <div class="form-sections">
+                    <h1 class="text-center">Drop Us a line!</h1>
+                    <p class="text-center">Let Us Know What You Think!</p>
+                    <form action="">
+                        <div class="row inside-row">
+                            <div class="col-6">
+                                <input type="text" class="input-style" placeholder="Name">
+                            </div>
+                            <div class="col-6">
+                                <input type="email" class="input-style" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="row inside-row">
+                            <div class="col-6">
+                                <input type="number" class="input-style" placeholder="Phone">
+
+                            </div>
+                            <div class="col-6">
+                                <input type="text" class="input-style" placeholder="Subject">
+
+                            </div>
+                        </div>
+                        <div class="row inside-row">
+                            <div class="col-sm-12">
+                                <textarea class="input-style-messge" placeholder="Messege"></textarea>
+                            </div>
+                        </div>
+                        <button class="submit-btn">Submit Messege</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+
+            </div>
+            <div class="col-sm-6">
+                <div class="copy-rights-reserved-head">
+                    <p>@2024 UNWITA INSIGHTS PVT LTD.All rights reserved</p>
+                </div>
+            </div>
+            <div class="col-sm-2 copy-rights-reserved">
+                <p class="copy-rights-reserved-text">Privacy Policy</p>
+                <p class="copy-rights-reserved-text">Support</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>

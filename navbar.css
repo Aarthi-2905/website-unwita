@@ -2,6 +2,17 @@ body {
     overflow-x: hidden;
 }
 
+.unwita-logo-img{
+    width: 100px;
+    height: 30px;
+     transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.unwita-logo-img:hover{
+      transform: scale(1.1);
+}
+
+
 .nav-style {
     background-color: #255f5f;
     border: none;
@@ -19,17 +30,20 @@ nav {
     background-color: transparent !important;
       text-decoration-line: underline;
   text-decoration-style: solid;
+  
     /* font-weight: bold; */
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: white;
-    font-size: 18px;
+    color: rgb(240, 235, 227);
+    font-family: 'Playfair Display';font-size: 22px;
+     transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
       text-decoration-line: underline;
   text-decoration-style: solid;
+  transform: scale(1.1);
     /* color: rgb(195, 255, 195) !important; */
 }
 
@@ -38,11 +52,11 @@ nav {
     background-color: bisque;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
+
 }
 
 .navbar-brand:hover{
     background-color: bisque !important;
-
 }
 
 .navbar-brand a{
