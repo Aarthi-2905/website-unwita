@@ -424,13 +424,8 @@
   }
 }
 
-/* @media (max-width:1110px) {
-  .copy-rights-reserved-text {
-    margin-left: 8px;
+@media (max-width:995px) {
+  .footer-image-column{
+    height: 600px;
   }
 }
-@media (max-width:1090px) {
-   .copy-rights-reserved-text {
-    margin-left: 2px;
-  }
-} */
