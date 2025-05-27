@@ -83,6 +83,9 @@
   .submit-btn{
     margin-left: 33% !important;
   }
+  .footer-image-column{
+    min-height: 20vh;
+  }
 }
 
 @media (max-width:769px) and (min-width:767px)  {

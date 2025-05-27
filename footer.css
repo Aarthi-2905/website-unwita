@@ -11,6 +11,12 @@
     background-color: #009688;
 }
 
+.footer-image-column{
+     width: 100%;
+    height: 450px;
+    position: absolute;
+}
+
 .form-style {
     margin-left: 100px;
 }
