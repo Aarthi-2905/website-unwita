@@ -8,7 +8,7 @@
 }
 
 .footer-section {
-    background-color: #009688;
+    background-color: #255f5f;
 }
 
 .footer-image-column{
@@ -22,7 +22,7 @@
 }
 
 .input-style {
-    width: 200px;
+    width: 300px;
     height: 50px;
     border-radius: 25px;
     margin: 10px;
@@ -33,13 +33,9 @@
     color: #255f5f;
 }
 
-.input-style::placeholder {
-    text-align: center;
-}
-
 
 .input-style-messge {
-    width: 530px;
+    width: 680px;
     border-radius: 25px;
     margin: 10px;
     border: none;
@@ -57,7 +53,7 @@
     border: none;
     font-size: 18px;
     color: #ECD8B6;
-    border-radius: 10px;
+    border-radius: 5px;
     font-family: 'lora';
     font-weight:bold;
 }
@@ -111,8 +107,8 @@
 }
 
 .form-head {
-    font-family: 'Playfair Display';
-    font-size: 45px;
+    font-family: 'Playfair Display';    
+    font-size: 40px;
     color: #ECD8B6;
     font-weight: bold;
 }
@@ -169,10 +165,21 @@
     font-family: 'lora';
     font-size: 15px;
     color: #255f5f;
+    position: relative;
+left: 100% !important;
 }
 
 .copy-rights-reserved{
+    /* float: right; */
     font-family: 'lora';
     font-size: 15px;
     color: #255f5f;
+}
+
+.footer-copy-rights-reserved{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* flex-wrap: wrap;  */
+    padding: 3px;
 }
