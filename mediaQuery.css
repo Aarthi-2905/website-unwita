@@ -39,18 +39,20 @@
   } */
 }
 
-@media (max-width:477px) {
+@media (max-width:465px) {
   .diamond-shape{
     left:30% !important;
   }
-   #Footer .form-sections2 .form-row-style>div {
-    width: 100% !important;
-    flex: 0 0 100% !important;
-    max-width: 100% !important;
+   .custom-col {
+    width: 100%;
   }
-
-  .input-style {
-    width: 90%;
+  .input-style{
+    width: 70% !important;
+    margin-left: 15%;
+  }
+  .input-style-messge{
+    width: 70% !important;
+    margin-left: 15%;
   }
 
 }
@@ -64,6 +66,12 @@
 @media (max-width:428px) {
   .texts-section {
     margin-left: 10px;
+  }
+}
+
+@media (max-width:410px) {
+  .diamond-shape {
+    left: 15% !important;
   }
 }
 
@@ -89,6 +97,7 @@
     margin-left: 40% !important;
   }
 }
+
 @media (max-width:547px) {
   .form-style{
     margin-left: 5%;
@@ -101,6 +110,9 @@
   }
   .footer-image-column{
     min-height: 20vh;
+  }
+  .input-style-messge{
+    max-width: 80%;
   }
 }
 
@@ -122,6 +134,14 @@
         width: 40%;
         margin-left: 30%;
       }
+
+      .footer-section2 .inside-row {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
 }
 @media (max-width:768px) {
   .first-paragraph{
@@ -187,13 +207,7 @@
     display: block;
   }
 
-  .footer-section2 .inside-row {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
+  
   /* 
   .desktop-box-section{
     display: none;
@@ -307,6 +321,7 @@
   }
 }
 
+
 @media (max-width: 546px) {
   /* .footer-section2 .col-4 {
     flex: 0 0 200%;
@@ -331,10 +346,6 @@
   }
 
   .input-style {
-    width: 90%;
-  }
-
-  .input-style-messge {
     width: 90%;
   }
 
