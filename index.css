@@ -85,14 +85,13 @@
 
 .arch-container {
     position: relative;
-    width: 55%;
+    width: 90%;
     height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     overflow: hidden;
-    margin-left: 20%;
 }
 
 .arch-top {
@@ -145,7 +144,7 @@
 /* The Column Boxs styles  */
 
 .card-style {
-    width: 70%;
+    width: 90%;
     position: relative;
     border-radius: 100px 100px 0 0;
     overflow: hidden;
@@ -224,8 +223,8 @@
     /* margin-bottom: 40px;
     margin-left: 6.5%; */
     margin: auto;
-    margin-top: 100px !important;
-    margin-bottom: 100px !important;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
     /* margin-left: 7.5% !important; */
     
 }
@@ -243,4 +242,8 @@
     font-size: 32px !important;
     font-weight: bold;
     margin-bottom: 50px;
+}
+
+.block-chain-paragraph{
+    margin-bottom: 30px;
 }

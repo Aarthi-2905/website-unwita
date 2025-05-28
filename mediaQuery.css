@@ -24,19 +24,35 @@
    .box-with-content{
     margin-right: 0px;
   }
-  .arch-container{
-    margin-left: 10px;
-  }
-  .small-level-askpert{
+    /* .arch-container{
+      margin-left: 10px;
+    } */
+  /* .small-level-askpert{
     margin-right: 10px;
-  }
+  } */
 }
 
 @media (max-width:767px) and (min-width:380px) {
-  .arch-container{
+  /* .arch-container{
     width: 10px !important;
     margin-left: 30%;
+  } */
+}
+
+@media (max-width:477px) {
+  .diamond-shape{
+    left:30% !important;
   }
+   #Footer .form-sections2 .form-row-style>div {
+    width: 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  .input-style {
+    width: 90%;
+  }
+
 }
 
 @media (min-width:52px) {
@@ -52,9 +68,9 @@
 }
 
 @media (max-width:350px) {
-  .arch-container {
+  /* .arch-container {
     margin-left: 10px !important;
-  }
+  } */
 
   .home-style-left-col h1 {
     font-size: 50px !important;
@@ -93,6 +109,19 @@
     width: 50%;
     margin-left: 25%;
   }
+
+}
+
+@media (max-width:767px) and (min-width:462px){
+  .diamond-shape{
+    margin-right: 300px;
+    z-index: 50;
+    left: 90% !important;
+  }
+      .arch-container {
+        width: 40%;
+        margin-left: 30%;
+      }
 }
 @media (max-width:768px) {
   .first-paragraph{
@@ -112,8 +141,20 @@
 
   .card-style{
     margin-top: 100px !important;
+    width: 70%;
   }
 
+  .form-sections-with-image{
+    background-image: url(images/footer\ image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .diamond-shape{
+    margin-right: 300px;
+    z-index: 50;
+    left: 75%;
+  }
 
   /* .input-style-messge {
     width: 50% !important;
@@ -142,7 +183,7 @@
   }
 
   .footer-section2 {
-    background-color: #009688;
+    background-color: #255f5f;
     display: block;
   }
 
@@ -159,10 +200,8 @@
   } */
 
   .location-mobile-view {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
+    float: right !important;
+    margin-right: 100px;
   }
 
 
@@ -275,13 +314,13 @@
   } */
 
 
-  .footer-section {
+  /* .footer-section {
     display: block;
   }
 
   .footer-section2 {
     display: none;
-  }
+  } */
 
   .location-icon-style {
     margin-top: 5px;
@@ -319,7 +358,7 @@
   }
 
   .arch-container {
-    padding: 130px !important;
+    /* padding: 130px !important; */
   }
 
   .home-style-left-col h1 {
