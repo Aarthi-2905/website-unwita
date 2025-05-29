@@ -1,3 +1,10 @@
+/* box with content  */
+@media (max-width:1200px) and (min-width:500px) {
+  .arch-container{
+    width: 300px;
+    height: 400px;
+  }
+}
 /* home page section  */
 
 @media (max-width: 2865px) and (min-width:1750px) {
@@ -15,14 +22,14 @@
 }
 
 @media (max-width:1025px) and (min-width:995px){
-  .box-with-content{
+  /* .box-with-content{
     margin-right: 100px;
-  }
+  } */
 }
 
 @media (max-width:994px) {
-   .box-with-content{
-    margin-right: 0px;
+   .box-container-text{
+    margin-left: 100px !important;
   }
     /* .arch-container{
       margin-left: 10px;
@@ -30,6 +37,12 @@
   /* .small-level-askpert{
     margin-right: 10px;
   } */
+}
+
+@media (max-width:609px) {
+  .box-container-text{
+    margin-left: 0px !important;
+  }
 }
 
 
@@ -54,6 +67,7 @@
 @media (min-width:52px) {
   body {
     overflow-x: hidden !important;
+    font-family: none;
   }
 }
 
@@ -143,8 +157,8 @@
     left: 88% !important;
   }
       .arch-container {
-        width: 40%;
-        margin-left: 30%;
+        width: 60%;
+        margin-left: 20%;
       }
 
       .footer-section2 .inside-row {
@@ -517,6 +531,6 @@
 
 @media (max-width:995px) {
   .footer-image-column{
-    height: 600px;
+    height: 655px;
   }
 }

@@ -78,6 +78,7 @@ body{
 .small-level-box-content{
     margin-top: 70px;
 }
+
 .box-container-text {
     font-family: 'Lora';
     font-style: italic;
@@ -89,7 +90,7 @@ body{
 .arch-container {
     position: relative;
     width: 90%;
-    height: 350px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,7 +113,7 @@ body{
     position: absolute;
     top: 20px;
     width: 90%;
-    height: 330px;
+    height: 400px;
     background-color: #255f5f;
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
@@ -158,7 +159,7 @@ body{
 
 .card-style img {
     width: 100%;
-    height: 250px;
+    height: 290px;
     object-fit: cover;
     border-radius: 150px 150px 0 0;
 }
@@ -166,8 +167,8 @@ body{
 .card-label {
     background-color: #f5e3ca;
     padding: 10px 0;
-    font-family: 'Lora';
-    font-style: italic;
+     font-family: 'Lora', serif;
+      font-style: italic;
     color: #295757;
     font-size: 24px;
     position: relative;
