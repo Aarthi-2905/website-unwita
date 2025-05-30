@@ -83,8 +83,9 @@ body{
     font-family: 'Lora';
     font-style: italic;
     color: #295757;
-    font-size: 18px;
-    text-align:left
+    font-size: 20px;
+    text-align:left;
+    letter-spacing: 0.7px;
 }
 
 .arch-container {
@@ -229,8 +230,9 @@ body{
     margin: auto;
     margin-top: 50px !important;
     margin-bottom: 50px !important;
+    /* margin-left: 4.4% !important; */
     /* margin-left: 7.5% !important; */
-    
+    /* margin-left: 58px !important; */
 }
 
 .mobile-view-box-section {
@@ -250,4 +252,5 @@ body{
 
 .block-chain-paragraph{
     margin-bottom: 30px;
+    letter-spacing: 0.8px;
 }

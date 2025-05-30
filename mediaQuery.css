@@ -21,10 +21,13 @@
   }
 }
 
-@media (max-width:1025px) and (min-width:995px){
+@media (max-width:1027px) and (min-width:995px){
   /* .box-with-content{
     margin-right: 100px;
   } */
+   .industry-cards{
+    margin-left: 3.5% !important;
+   }
 }
 
 @media (max-width:994px) {
@@ -175,9 +178,9 @@
     margin-left: 20px;
     /* margin-right: 10px; */
   }
-  .industry-cards {
+  /* .industry-cards {
     margin-left: 4.5% !important;
-  }
+  } */
 
   .small-level-askpert{
     margin-top: 13px;
@@ -276,6 +279,9 @@
   .input-style-messge{
     width: 400px !important;
     /* margin-left: 15%; */
+  }
+  .industry-cards{
+    margin-left: 3% !important;
   }
 }
 
@@ -439,40 +445,71 @@
   }
 }
 
-@media (max-width:1240px) and (min-width:1200px) {
-  .industry-cards {
-    margin-left: 5.5% !important;
+@media (max-width:1560px) {
+  /* .industry-cards
+  { 
+    margin-left: 10%;
+  } */
+}
+
+@media (max-width:1390px) and (min-width:1027px) {
+  .industry-cards{
+    margin-left: 1%;
   }
+}
+
+@media (max-width:1335px){
+    .industry-cards{
+    margin-left: 5%;
+  }
+}
+
+@media (max-width:1299px) {
+  .industry-cards{
+    margin-left: 4%;
+  }
+}
+
+@media (max-width:1222px) {
+   .industry-cards{
+    margin-left: 1.4%;
+  }
+}
+
+@media (max-width:1240px) and (min-width:1200px) {
+  /* .industry-cards {
+    margin-left: 5.5% !important;
+  } */
 }
 
 @media (max-width:1760px) {
-  .industry-cards {
+  /* .industry-cards {
     margin-left: 20%;
-  }
+  } */
 }
 
 @media (max-width:1600px) {
-  .industry-cards {
+  /* .industry-cards {
     margin-left: 16%;
-  }
+  } */
 }
 
 @media (max-width:1512px) {
-  .industry-cards {
+  /* .industry-cards {
     margin-left: 14%;
-  }
+  } */
 }
 
-@media (max-width:1420px) {
+@media (max-width:1450px) and (min-width:1027px){
   .industry-cards {
     margin-left: 10%;
   }
 }
 
 @media (max-width:1280px) {
-  .industry-cards {
+  /* .industry-cards {
     margin-left: 6.7%;
-  }
+  } */
 }
 
 @media (max-width:1175px) {
@@ -517,6 +554,22 @@
 }
 }
 
+@media (max-width:1215px) and (min-width:1199px) {
+  .industry-cards{
+    margin-left: 0.4% !important;
+  }
+}
+@media (max-width:1199px) and (min-width:1045px) {
+  .industry-cards{
+    margin-left: 5% !important;
+  }
+}
+
+@media (max-width:1045px) and (min-width:1027px) {
+  .industry-cards{
+    margin-left: 3% !important;
+  }
+}
 @media (max-width:995px) {
   #Footer .form-sections .form-row-style>div {
     width: 100% !important;
@@ -531,6 +584,6 @@
 
 @media (max-width:995px) {
   .footer-image-column{
-    height: 655px;
+    height: 695px;
   }
 }
