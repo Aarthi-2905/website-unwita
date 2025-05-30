@@ -18,7 +18,7 @@
 }
 
 .form-style {
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .input-style {
@@ -34,10 +34,18 @@
     color: #255f5f;
 }
 
+.email{
+    margin-left: 50px;
+}
+
+.subject{
+    margin-left: 50px;
+}
+
 
 .input-style-messge {
     background-color: #F0EBE3;
-    width: 650px;
+    width: 630px;
     height: 150px;
     border-radius: 25px;
     margin: 10px;
@@ -124,7 +132,7 @@
     font-size: 24px;
     color: #ECD8B6;
     font-weight: medium;
-    margin-left: 88px;
+    margin-left: 68px;
 }
 
 /* Location-side  */
