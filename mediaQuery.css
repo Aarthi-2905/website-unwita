@@ -454,7 +454,7 @@
 
 @media (max-width:1390px) and (min-width:1027px) {
   .industry-cards{
-    margin-left: 1%;
+    margin-left: 23%;
   }
 }
 
@@ -500,7 +500,7 @@
   } */
 }
 
-@media (max-width:1450px) and (min-width:1027px){
+@media (max-width:1450px) and (min-width:1390px){
   .industry-cards {
     margin-left: 10%;
   }
