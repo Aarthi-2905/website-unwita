@@ -469,29 +469,18 @@
   } */
 }
 
-@media (max-width:1390px) and (min-width:1027px) {
+@media (max-width:1390px) and (min-width:1327px) {
   .industry-cards{
-    margin-left: 23%;
+    margin-left: 8.4%;
   }
 }
 
-@media (max-width:1335px){
-    .industry-cards{
-    margin-left: 5%;
-  }
-}
-
-@media (max-width:1299px) {
+@media (max-width:1327px) and (min-width:1290px) {
   .industry-cards{
-    margin-left: 4%;
+    margin-left: 6.5%;
   }
 }
 
-@media (max-width:1222px) {
-   .industry-cards{
-    margin-left: 1.4%;
-  }
-}
 
 @media (max-width:1240px) and (min-width:1200px) {
   /* .industry-cards {
@@ -511,10 +500,10 @@
   } */
 }
 
-@media (max-width:1512px) {
-  /* .industry-cards {
-    margin-left: 14%;
-  } */
+@media (min-width: 1027px) and (max-width: 1366px) {
+  .industry-cards {
+    margin-left: 4.3%;
+  }
 }
 
 @media (max-width:1450px) and (min-width:1390px){
