@@ -10,6 +10,17 @@
 body{
     background-color: #F0EBE3;
 }
+
+.no-wrap-row {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent columns from stacking */
+}
+
+.custom-half {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+
 .home-section {
     margin-bottom: 50px;
 }
