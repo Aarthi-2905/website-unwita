@@ -7,18 +7,24 @@
     align-items: center;
 }
 
-body{
+body {
     background-color: #F0EBE3;
 }
 
+.custom-row-990 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .no-wrap-row {
-  display: flex;
-  flex-wrap: nowrap; /* Prevent columns from stacking */
+    display: flex;
+    flex-wrap: nowrap;
+    /* Prevent columns from stacking */
 }
 
 .custom-half {
-  flex-basis: 50%;
-  max-width: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
 }
 
 .home-section {
@@ -54,13 +60,14 @@ body{
     align-items: center !important;
 }
 
-.last-paragraph{
-     font-family: 'Lora';
+.last-paragraph {
+    font-family: 'Lora';
     font-style: italic;
     color: #295757;
     font-size: 30px !important;
     font-weight: bold;
 }
+
 .first-paragraph {
     font-family: 'Lora';
     font-style: italic;
@@ -80,13 +87,14 @@ body{
     margin-bottom: 100px;
 }
 
-.product-head{
+.product-head {
     font-family: 'Playfair Display';
     font-size: 45px;
     color: #295757;
     font-weight: bold;
 }
-.small-level-box-content{
+
+.small-level-box-content {
     margin-top: 70px;
 }
 
@@ -95,7 +103,7 @@ body{
     font-style: italic;
     color: #295757;
     font-size: 20px;
-    text-align:left;
+    text-align: left;
     letter-spacing: 1.2px;
 }
 
@@ -137,7 +145,7 @@ body{
     z-index: 2;
     text-align: center;
     /* font-family: 'Times New Roman', serif; */
-    
+
 }
 
 .arch-content h3 {
@@ -153,7 +161,7 @@ body{
     font-size: 40px;
 } */
 
-.arch-content-img{
+.arch-content-img {
     width: 100px;
 }
 
@@ -179,8 +187,8 @@ body{
 .card-label {
     background-color: #f5e3ca;
     padding: 10px 0;
-     font-family: 'Lora', serif;
-      font-style: italic;
+    font-family: 'Lora', serif;
+    font-style: italic;
     color: #295757;
     font-size: 24px;
     position: relative;
@@ -252,8 +260,8 @@ body{
 
 
 /* Block chain  */
-.block-chain-head{
-  font-family: 'Lora';
+.block-chain-head {
+    font-family: 'Lora';
     /* font-style: italic; */
     color: #295757;
     font-size: 32px !important;
@@ -261,7 +269,7 @@ body{
     margin-bottom: 50px;
 }
 
-.block-chain-paragraph{
+.block-chain-paragraph {
     margin-bottom: 30px;
     letter-spacing: 1.2px;
 }
