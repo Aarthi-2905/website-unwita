@@ -107,7 +107,7 @@ body {
 .arch-container {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 510px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -239,6 +239,10 @@ body {
     /* Green triangle */
 }
 
+.second-boxs{
+    margin-top: 26px !important;
+    margin-bottom: 26px !important;
+}
 
 .industry-cards {
     /* margin-bottom: 40px;
