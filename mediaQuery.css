@@ -81,6 +81,50 @@
     margin-left: 10%;
   }
 
+  .copy-rights-reserved-text{
+    margin-right: 5px !important;
+  }
+
+}
+
+
+@media (max-width:428px) and (min-width:335px){
+  .copy-rights-reserved-text{
+    font-size: 8px !important;
+    margin-top: 5px !important;
+  }
+  .copy-right{
+    font-size: 8px !important;
+    margin: 0px !important;
+  }
+  .diamond-shape{
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media (max-width:335px) {
+  .copy-rights-reserved-text{
+    font-size: 6px !important;
+    margin-top: 5px !important;
+  }
+  .copy-right{
+    font-size: 6px !important;
+    margin: 0px !important;
+  }
+   .diamond-shape{
+    width: 15px;
+    height: 15px;
+  }
+  .contact-text{
+    position: relative;
+    left: 25px !important;
+    top: 5px;
+  }
+  .phone-text{
+    position: relative;
+    left: 70px !important;
+  }
 }
 
 @media (min-width:52px) {
@@ -127,6 +171,15 @@
 @media (max-width:462px) {
   .home-style-left-col h1 {
     font-size: 30px !important;
+  }
+
+  .form-sub-head{
+    font-size: 19px;
+    margin-left: 90px !important;
+  }
+
+  .contact-text{
+    font-size: 15px;
   }
 
   .first-paragraph {
@@ -293,6 +346,17 @@
   }
 }
 
+@media (max-width:767px) {
+  .managment-box-text{
+    margin-top: 0px !important;
+  }
+  .small-level-box-content{
+    margin-top: 0px !important;
+  }
+  .askpert-box-text{
+    margin-top: 0px !important;
+  }
+}
 @media (max-width:769px) and (min-width:767px) {
   /* .input-style-messge {
     width: 50% !important;
@@ -304,13 +368,33 @@
     margin-left: 25%;
   } */
 
+  .datascience-box-text{
+    margin-top: 90px !important;
+  }
+  .askpert-box-text{
+    margin-top: 30px !important;
+  }
+  .box-container-text{
+    font-size: 15px !important;
+  }
+
+  .managment-box-text{
+    margin-top: 10px !important;
+  }
+
+  .website-box{
+    margin-top: 50px;
+  }
+  .first-paragraph{
+    text-align: center !important;
+  }
   .submit-btn {
     margin-left: 15%;
   }
 
 .input-style-messge{
     margin-left: 8%;
-    width: 85% !important;
+    width: 82% !important;
   }
 
   .left-input-mob-style{
@@ -436,8 +520,13 @@
   } */
 
 
-  .first-paragraph {
-    text-align: center;
+  .first-paragraph p {
+    text-align: center !important;
+    font-size: 14px;
+  }
+
+  .second-para{
+    margin-left: 15px !important;
   }
 
   .second-para {
@@ -470,7 +559,6 @@
   }
 
   .card-style {
-    margin-top: 100px !important;
     width: 70%;
   }
 
@@ -579,7 +667,15 @@
     margin-top: 0px !important;
     width: 680px !important;
   }
+}
 
+@media (max-width:659px) and (min-width:428px) {
+  .copy-right{
+    font-size: 10px !important;
+  }
+  .copy-rights-reserved-text{
+    font-size: 10px !important;
+  }
 }
 
 @media (max-width:570px) {
@@ -632,14 +728,14 @@
 
 
 @media (max-width:568px) {
-  .footer-copy-rights-reserved {
+  /* .footer-copy-rights-reserved {
     display: block;
-  }
+  } */
 
-  .copy-rights-reserved {
+  /* .copy-rights-reserved {
     float: none;
     margin-left: 15% !important;
-  }
+  } */
 }
 
 @media (max-width:515px) {
@@ -686,8 +782,21 @@
 
   .arch-container {
     width: 250px !important;
-    height: 370px !important;
+    height: 330px !important;
     margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .arch-container h3 {
+    position: relative;
+    bottom: 50px;
+    font-size: 25px;
+  }
+
+  .arch-content-img{
+    width: 50px;
+    position: relative;
+    bottom: 20px;
   }
 
   #Footer {
@@ -731,6 +840,9 @@
 @media (max-width:350px) {
   .custom-row-990 {
     width: 500px !important;
+  }
+  .form-sub-head{
+    margin-left: 40px !important;
   }
 }
 
@@ -786,9 +898,9 @@
     width: 90%;
   }
 
-  .copy-rights-reserved {
+  /* .copy-rights-reserved {
     margin-left: 80px;
-  }
+  } */
 
   /* .copy-rights-reserved-head {
     margin-left: 20px;
@@ -896,6 +1008,15 @@
   } */
 }
 
+@media (max-width:1027px) and (min-width:770px) {
+  .form-style{
+    margin-left: 10px;
+  }
+  .input-style-messge{
+    width: 96.5% !important;
+  }
+}
+
 @media (min-width: 1027px) and (max-width: 1366px) {
   .industry-cards {
     margin-left: 4.3%;
@@ -905,6 +1026,9 @@
 @media (max-width:1450px) and (min-width:1390px) {
   .industry-cards {
     margin-left: 10%;
+  }
+  .input-style-messge{
+    width: 88% !important;
   }
 }
 
@@ -958,9 +1082,9 @@
 }
 
 @media (max-width:1210px) and (min-width:990px) {
-  .input-style {
+  /* .input-style {
     width: 80%;
-  }
+  } */
 }
 
 @media (max-width:1215px) and (min-width:1199px) {
@@ -972,6 +1096,9 @@
 @media (max-width:1199px) {
   .input-style-messge {
     width: 580px;
+  }
+  .input-style{
+    width: 260px;
   }
 }
 
