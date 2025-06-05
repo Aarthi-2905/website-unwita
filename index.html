@@ -26,8 +26,9 @@
     <!-- Externel Media Query style  -->
     <link rel="stylesheet" href="mediaQuery.css">
     <!-- Animation  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -62,7 +63,8 @@
         <div class="home-section">
             <div class="row custom-col-change no-wrap-row">
                 <div class="col-6 col-md-6 col-sm-6 custom-half  custom-col-8">
-                    <div class="home-style-left-col animate__animated animate__fadeInTopLeft" data-aos="fade">
+                    <div class="home-style-left-col" data-aos="fade-down-right"
+>
                         <h1>We Bridge <br> The Gaps</h1>
                         <p class="home-style-text">Simplifying Your Journey</p>
                     </div>
@@ -83,7 +85,7 @@
         </div>
         <div class="texts-section first-paragraph second-para">
             <p>Our user-centric scientific and technological solutions are designed to increase transparency</p>
-            and traceability in operational workflows for better accountability and cost reduction</p>
+            <p>and traceability in operational workflows for better accountability and cost reduction</p>
         </div>
 
         <div class="texts-section last-paragraph">
@@ -409,19 +411,19 @@
                     <p class="form-sub-head">Let Us Know What You Think!</p>
                     <form action="">
                         <div class="row inside-row form-row-styles">
-                            <div class="col-6 custom-col">
-                                <input type="text" class="input-style" placeholder="Name">
+                            <div class="col-5 col-sm-5 col-md-5 custom-col">
+                                <input type="text" class="input-style left-input-mob-style" placeholder="Name">
                             </div>
-                            <div class="col-6 custom-col">
-                                <input type="email" class="input-style" placeholder="Email">
+                            <div class="col-7 col-sm-7 col-md-7 custom-col">
+                                <input type="email" class="input-style right-input-mob-style" placeholder="Email">
                             </div>
                         </div>
                         <div class="row inside-row form-row-styles">
-                            <div class="col-6 custom-col">
-                                <input type="number" class="input-style" placeholder="Phone">
+                            <div class="col-5 col-sm-5 col-md-5 custom-col">
+                                <input type="number" class="input-style left-input-mob-style" placeholder="Phone">
                             </div>
-                            <div class="col-6 custom-col">
-                                <input type="text" class="input-style" placeholder="Subject">
+                            <div class="col-7 col-sm-7 col-md-7 custom-col">
+                                <input type="text" class="input-style right-input-mob-style" placeholder="Subject">
                             </div>
                         </div>
                         <div class="row inside-row">
@@ -472,9 +474,13 @@
         </div>
     </div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
     <script>
-        AOS.init();
+        AOS.init({
+            once: true   // ✅ this makes animation happen only once
+        });
     </script>
 
 </body>

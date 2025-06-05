@@ -83,9 +83,6 @@ body {
 
 /* OUR PRODUCTS  */
 
-.our-products-section {
-    margin-bottom: 100px;
-}
 
 .product-head {
     font-family: 'Playfair Display';
@@ -247,7 +244,7 @@ body {
     /* margin-bottom: 40px;
     margin-left: 6.5%; */
     margin: auto;
-    margin-top: 50px !important;
+    /* margin-top: 50px !important; */
     margin-bottom: 50px !important;
     /* margin-left: 4.4% !important; */
     /* margin-left: 7.5% !important; */
