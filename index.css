@@ -104,6 +104,10 @@ body {
     letter-spacing: 1.2px;
 }
 
+.website-content{
+    margin-bottom: 55px;
+}
+
 .arch-container {
     position: relative;
     width: 100%;

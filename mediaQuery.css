@@ -81,49 +81,86 @@
     margin-left: 10%;
   }
 
-  .copy-rights-reserved-text{
+  .copy-rights-reserved-text {
     margin-right: 5px !important;
   }
 
 }
 
 
-@media (max-width:428px) and (min-width:335px){
-  .copy-rights-reserved-text{
+@media (max-width:428px) and (min-width:335px) {
+  .copy-rights-reserved-text {
     font-size: 8px !important;
     margin-top: 5px !important;
   }
-  .copy-right{
+
+  .block-chain-paragraph {
+    font-size: 14px !important;
+  }
+
+  .copy-right {
     font-size: 8px !important;
     margin: 0px !important;
   }
-  .diamond-shape{
+
+  .diamond-shape {
     width: 15px;
     height: 15px;
   }
 }
 
 @media (max-width:335px) {
-  .copy-rights-reserved-text{
+  .copy-rights-reserved-text {
     font-size: 6px !important;
     margin-top: 5px !important;
   }
-  .copy-right{
+
+  .copy-right {
     font-size: 6px !important;
     margin: 0px !important;
   }
-   .diamond-shape{
+
+  .diamond-shape {
     width: 15px;
     height: 15px;
   }
-  .contact-text{
+
+  .contact-text {
     position: relative;
     left: 25px !important;
     top: 5px;
   }
-  .phone-text{
+
+  .form-sub-head{
+    font-size: 16px !important;
+  }
+
+  .box-container-text{
+    font-size: 12px !important;
+    line-height: 25px;
+  }
+
+  .block-chain-paragraph{
+    font-size: 12px !important;
+    line-height: 25px !important;
+  }
+
+  .small-level-askpert{
+    text-align: center;
+    margin-right: 30px;
+  }
+
+  .arch-content-img{
+    width: 80px !important;
+  }
+
+  .phone-text {
     position: relative;
     left: 70px !important;
+  }
+
+  .location-mobile-view{
+    margin-bottom: 20px !important;
   }
 }
 
@@ -154,9 +191,7 @@
     font-size: 28px !important;
   }
 
-  .block-chain-paragraph {
-    font-size: 14px !important;
-  }
+  
 
   .arch-container {
     height: 400px !important;
@@ -173,12 +208,12 @@
     font-size: 30px !important;
   }
 
-  .form-sub-head{
+  .form-sub-head {
     font-size: 19px;
     margin-left: 90px !important;
   }
 
-  .contact-text{
+  .contact-text {
     font-size: 15px;
   }
 
@@ -186,7 +221,7 @@
     text-align: center !important;
   }
 
-  .input-style-messge{
+  .input-style-messge {
     width: 70% !important;
     margin-left: 15% !important;
   }
@@ -283,7 +318,7 @@
   }
 
   .home-style-text {
-    font-size: 10px !important;
+    font-size: 13px !important;
     margin-top: 20px;
   }
 
@@ -339,7 +374,7 @@
 }
 
 @media (max-width:599px) and (min-width:499px) {
-  .input-style-messge{
+  .input-style-messge {
     width: 240% !important;
     position: relative;
     right: 70% !important;
@@ -347,16 +382,20 @@
 }
 
 @media (max-width:767px) {
-  .managment-box-text{
+  .managment-box-text {
     margin-top: 0px !important;
   }
-  .small-level-box-content{
+
+  .small-level-box-content {
     margin-top: 0px !important;
   }
-  .askpert-box-text{
+
+  .askpert-box-text {
     margin-top: 0px !important;
   }
+
 }
+
 @media (max-width:769px) and (min-width:767px) {
   /* .input-style-messge {
     width: 50% !important;
@@ -368,68 +407,81 @@
     margin-left: 25%;
   } */
 
-  .first-paragraph{
+  .hide-on-mobile{
+    display: none;
+  }
+  .first-paragraph {
     margin-right: 20px;
   }
-  .second-para{
+
+  .second-para {
     margin-right: 40px;
   }
 
-
-  .copy-rights-reserved-text{
-    font-size: 13px !important;
+  .industry-cards{
+    margin-left: 5px !important;
   }
 
-  .copy-right{
-    font-size: 13px !important;
+
+  .copy-rights-reserved-text {
+    font-size: 11px !important;
   }
 
-  .block-chain-paragraph{
-     font-size: 15px !important;
+  .copy-right {
+    font-size: 11px !important;
   }
 
-  .datascience-box-text{
+  .block-chain-paragraph {
+    font-size: 14px !important;
+    line-height: 25px;
+  }
+
+  .datascience-box-text {
     margin-top: 130px !important;
   }
-  
-  .askpert-box-text{
+
+  .askpert-box-text {
     margin-top: 30px !important;
   }
-  .box-container-text{
-    font-size: 15px !important;
+
+  .box-container-text {
+    font-size: 13px !important;
+    line-height: 25px;
   }
 
-  .managment-box-text{
+  .managment-box-text {
     margin-top: 10px !important;
   }
 
-  .website-box{
+  .website-box {
     margin-top: 50px;
   }
-  .first-paragraph{
+
+  .first-paragraph {
     text-align: center !important;
   }
+
   .submit-btn {
     margin-left: 15%;
   }
 
-.input-style-messge{
+  .input-style-messge {
     margin-left: 8%;
     width: 82% !important;
   }
 
-  .left-input-mob-style{
+  .left-input-mob-style {
     width: 100% !important;
     position: relative !important;
     left: 50px !important;
   }
 
-  .right-input-mob-style{
+  .right-input-mob-style {
     position: relative;
     left: 50px;
     width: 70% !important;
   }
-  
+
   .footer-section2 .inside-row {
     display: flex;
     flex-wrap: nowrap;
@@ -446,7 +498,7 @@
 }
 
 @media (max-width:767px) and (min-width:599px) {
-  .input-style-messge{
+  .input-style-messge {
     width: 260% !important;
     position: relative;
     right: 80%;
@@ -469,17 +521,19 @@
     width: 400px !important;
   }
 
- .left-input-mob-style,
+  .left-input-mob-style,
   .right-input-mob-style {
     width: 100% !important;
     position: relative;
     right: 0;
-    margin-bottom: 10px; /* space between stacked inputs */
+    margin-bottom: 10px;
+    /* space between stacked inputs */
   }
 
   .submit-btn {
     margin-left: 130px;
   }
+
   /* .custom-half{
    flex: 0 0 50% !important;
     max-width: 50% !important;
@@ -515,19 +569,36 @@
     margin-left: 40px;
   } */
 
-   .first-paragraph p {
+  .hr-style{
+    display: none;
+  }
+
+  .first-paragraph p {
     text-align: center !important;
-    font-size: 18px;
+    font-size: 16px;
+    margin-left: 15px !important;
+  }
+
+  .last-paragraph{
+    font-size: 20px !important;
+  }
+
+  .hide-on-mobile{
+    display: none;
   }
 
 }
 
 @media (max-width:430px) {
-   .first-paragraph p {
+  .first-paragraph p {
     text-align: center !important;
-    font-size: 10px;
+    font-size: 13px;
+  }
+  .hide-on-mobile{
+    display: none;
   }
 }
+
 @media (max-width:769px) {
 
   /* .industry-cards {
@@ -552,16 +623,16 @@
   } */
 
 
-  .form-head{
+  .form-head {
     font-size: 30px;
     margin: 20px;
   }
 
-  .form-sub-head{
+  .form-sub-head {
     font-size: 20px;
   }
-  
-  .second-para{
+
+  .second-para {
     margin-left: 15px !important;
   }
 
@@ -590,9 +661,9 @@
     margin-top: 13px;
   }
 
-  .first-paragraph {
+  /* .first-paragraph {
     font-size: 18px;
-  }
+  } */
 
   .card-style {
     width: 70%;
@@ -706,10 +777,11 @@
 }
 
 @media (max-width:659px) and (min-width:428px) {
-  .copy-right{
+  .copy-right {
     font-size: 10px !important;
   }
-  .copy-rights-reserved-text{
+
+  .copy-rights-reserved-text {
     font-size: 10px !important;
   }
 }
@@ -804,10 +876,10 @@
 }
 
 @media (max-width:499px) and (min-width:462px) {
-   .input-style-messge {
+  .input-style-messge {
     width: 200% !important;
     position: relative;
-    right:50% !important;
+    right: 50% !important;
   }
 }
 
@@ -829,7 +901,7 @@
     font-size: 25px;
   }
 
-  .arch-content-img{
+  .arch-content-img {
     width: 50px;
     position: relative;
     bottom: 20px;
@@ -877,7 +949,8 @@
   .custom-row-990 {
     width: 500px !important;
   }
-  .form-sub-head{
+
+  .form-sub-head {
     margin-left: 40px !important;
   }
 }
@@ -1045,23 +1118,34 @@
 }
 
 @media (max-width:1027px) and (min-width:770px) {
-  .form-style{
+  .form-style {
     margin-left: 10px;
   }
-  .input-style-messge{
-    width: 96.5% !important;
+
+  .card-style{
+    width: 100%;
   }
-  .first-paragraph{
+
+  .managment-box-text{
+    margin-top: 15px !important;
+  }
+
+  .input-style-messge {
+    width: 97% !important;
+  }
+
+  .first-paragraph {
     font-size: 20px;
   }
 }
 
 @media (max-width:1027px) {
-  .our-products-section{
+  .our-products-section {
     margin-top: 30px;
     margin-bottom: 40px;
   }
-  .industry-cards{
+
+  .industry-cards {
     margin-top: 70px;
     margin-bottom: 70px !important;
   }
@@ -1077,13 +1161,14 @@
   .industry-cards {
     margin-left: 10%;
   }
-  .input-style-messge{
+
+  .input-style-messge {
     width: 88% !important;
   }
 }
 
-@media (max-width:1450px) and (min-width:769px) {
-  .datascience-box-text{
+@media (max-width:1450px) and (min-width:1027px) {
+  .datascience-box-text {
     margin-top: 120px !important;
   }
 }
@@ -1153,7 +1238,8 @@
   .input-style-messge {
     width: 580px;
   }
-  .input-style{
+
+  .input-style {
     width: 260px;
   }
 }
