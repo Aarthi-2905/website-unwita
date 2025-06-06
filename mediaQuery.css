@@ -176,6 +176,7 @@
     margin-left: 20px;
     margin-right: 20px;
     font-size: 14px !important;
+    line-height: 25px;
   }
 
   .box-container-text {
@@ -407,9 +408,18 @@
     margin-left: 25%;
   } */
 
-  .hide-on-mobile{
-    display: none;
+
+  .contact-text{
+    position: relative;
+    top: 3px;
   }
+  .phone-text{
+    position: relative;
+    left: 40px;
+  }
+  /* .hide-on-mobile{
+    display: none;
+  } */
   .first-paragraph {
     margin-right: 20px;
   }
@@ -433,7 +443,7 @@
 
   .block-chain-paragraph {
     font-size: 14px !important;
-    line-height: 25px;
+    line-height: 23px;
   }
 
   .datascience-box-text {
@@ -444,10 +454,12 @@
     margin-top: 30px !important;
   }
 
+
   .box-container-text {
     font-size: 13px !important;
-    line-height: 25px;
+    line-height: 23px;
   }
+
 
   .managment-box-text {
     margin-top: 10px !important;
@@ -577,15 +589,16 @@
     text-align: center !important;
     font-size: 16px;
     margin-left: 15px !important;
+    line-height: 30px;
   }
 
   .last-paragraph{
     font-size: 20px !important;
   }
 
-  .hide-on-mobile{
+  /* .hide-on-mobile{
     display: none;
-  }
+  } */
 
 }
 
@@ -679,6 +692,8 @@
     margin-right: 300px;
     z-index: 50;
     left: 75%;
+    width: 15px;
+    height: 15px;
   }
 
   /* .input-style-messge {
@@ -705,6 +720,7 @@
 
   .contact-text {
     margin-left: 0% !important;
+    font-size: 13px !important;
   }
 
   .footer-section2 {
