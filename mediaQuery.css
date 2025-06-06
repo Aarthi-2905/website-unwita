@@ -457,7 +457,7 @@
   }
 
   .askpert-box-text {
-    margin-top: 30px !important;
+    margin-top: 60px !important;
   }
 
 
@@ -622,6 +622,9 @@
   }
   .first-paragraph{
     line-height: 30px;
+  }
+  .box-container-text{
+    margin-right: 10px;
   }
 }
 
@@ -1150,6 +1153,14 @@
 @media (max-width:1027px) and (min-width:770px) {
   .form-style {
     margin-left: 10px;
+  }
+
+  .website-box{
+    margin-top: 90px;
+  }
+
+  .managment-box-text{
+    margin-top: 50px !important;
   }
 
   .card-style{
