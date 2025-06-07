@@ -1261,6 +1261,9 @@
   .first-paragraph {
     font-size: 20px;
   }
+  .small-level-askpert{
+    margin-top: 40px;
+  }
 }
 
 @media (max-width:1027px) {
