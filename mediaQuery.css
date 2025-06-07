@@ -44,7 +44,7 @@
 
 @media (max-width:994px) {
   .box-container-text {
-    margin-left: 100px !important;
+    margin-left: 65px !important;
   }
 
   /* .arch-container{
@@ -141,17 +141,6 @@
     position: relative;
     left: 25px !important;
     top: 5px;
-  }
-
-
-  .box-container-text {
-    font-size: 12px !important;
-    line-height: 25px;
-  }
-
-  .block-chain-paragraph {
-    font-size: 12px !important;
-    line-height: 25px !important;
   }
 
 
@@ -416,8 +405,12 @@
     margin-left: 25%;
   } */
 
+  .block-chain-paragraph{
+    line-height: 28px !important;
+  }
+
   .managment-box-text {
-    margin-top: 50px !important;
+    margin-top: 80px !important;
   }
 
   .website-box{
@@ -480,7 +473,7 @@
   }
 
   .askpert-box-text {
-    margin-top: 60px !important;
+    margin-top: 85px !important;
   }
 
 
@@ -616,6 +609,12 @@
     margin-left: 40px;
   } */
 
+  .first-home-text{
+    display: none;
+  }
+  .second-home-text{
+    display: block;
+  }
   .hr-style {
     display: none;
   }
@@ -971,6 +970,25 @@
   } 
   .card-style2 {
     left: 0px !important;
+  }
+
+  .box-container-text {
+    font-size: 12px !important;
+    line-height: 25px;
+    margin-right: 12px;
+  }
+  .askpert-box-text{
+    margin-right: 25px;
+  }
+
+  .block-chain-paragraph{
+    font-size: 12px !important;
+    line-height: 25px;
+  }
+  
+  .block-chain-head{
+    margin-top: 35px;
+    margin-bottom: 17px;
   }
 
   .arch-container {

@@ -283,3 +283,7 @@ body {
 .small-level-askpert{
     margin-top: 80px;
 }
+
+.second-home-text{
+    display: none;
+  }
