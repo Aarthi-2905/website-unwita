@@ -195,7 +195,7 @@
     </div> -->
 
     <!-- Record management system  -->
-    <div class="our-products-section text-center">
+    <div class="website-section our-products-section text-center ">
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
@@ -211,7 +211,7 @@
 
                 <div class="col-sm-8">
                     <div data-aos="fade-left">
-                        <p class="box-container-text small-level-box-content managment-box-text">
+                        <p class="box-container-text managment-box-text small-level-box-content">
                             • Our RMS helps to manage crucial records efficiently. RMS is critical for maintaining
                             transparency and reducing the risk of tampering and fraud. <br><span class="box-container-space"></span><br class="second-br">
                             •By implementing streamlined processes and utilizing advanced block chain technology,
@@ -316,7 +316,7 @@
         </div>
     </div>
 
-    <div class="our-products-section text-center">
+    <div class="website-section our-products-section text-center">
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
@@ -481,6 +481,26 @@
         AOS.init({
             once: true   // ✅ this makes animation happen only once
         });
+
+  $(document).ready(function () {
+    // Close navbar on click outside
+    $(document).click(function (event) {
+      var clickover = $(event.target);
+      var _opened = $(".navbar-collapse").hasClass("in");
+      if (_opened === true && !clickover.hasClass("navbar-toggle") && !clickover.closest('.navbar-collapse').length) {
+        $(".navbar-toggle").click();
+      }
+    });
+
+    // Close navbar when clicking any nav item
+    $('.navbar-nav li a').on('click', function () {
+      if ($('.navbar-toggle').is(':visible')) {
+        $('.navbar-toggle').click(); // triggers menu collapse
+      }
+    });
+  });
+
+
     </script>
 
 </body>

@@ -109,6 +109,18 @@
   }
 }
 
+@media (max-width:499px) and (min-width:335px) {
+  .phone-text {
+    position: relative;
+    left: 40px !important;
+  }
+
+  .contact-text {
+    position: relative;
+    top: 5px;
+  }
+}
+
 @media (max-width:335px) {
   .copy-rights-reserved-text {
     font-size: 6px !important;
@@ -131,23 +143,20 @@
     top: 5px;
   }
 
-  .form-sub-head{
-    font-size: 16px !important;
-  }
 
-  .box-container-text{
+  .box-container-text {
     font-size: 12px !important;
     line-height: 25px;
   }
 
-  .block-chain-paragraph{
+  .block-chain-paragraph {
     font-size: 12px !important;
     line-height: 25px !important;
   }
 
-  
 
-  .arch-content-img{
+
+  .arch-content-img {
     width: 80px !important;
   }
 
@@ -156,7 +165,7 @@
     left: 65px !important;
   }
 
-  .location-mobile-view{
+  .location-mobile-view {
     margin-bottom: 20px !important;
   }
 }
@@ -169,18 +178,19 @@
 }
 
 @media (max-width:428px) {
-  .small-level-askpert{
+  .small-level-askpert {
     text-align: center;
     margin-right: 30px;
   }
 
-  .arch-container{
+  .arch-container {
     margin-bottom: 20px !important;
   }
+
   .texts-section {
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 14px !important; 
+    font-size: 14px !important;
     line-height: 25px;
   }
 
@@ -197,7 +207,7 @@
     font-size: 28px !important;
   }
 
-  
+
 
   .arch-container {
     height: 400px !important;
@@ -215,7 +225,7 @@
   }
 
   .form-sub-head {
-    font-size: 19px;
+    font-size: 10px;
     margin-left: 90px !important;
   }
 
@@ -388,13 +398,6 @@
 }
 
 @media (max-width:767px) {
-  .managment-box-text {
-    margin-top: 0px !important;
-  }
-
-  .small-level-box-content {
-    margin-top: 0px !important;
-  }
 
   .askpert-box-text {
     margin-top: 0px !important;
@@ -413,14 +416,36 @@
     margin-left: 25%;
   } */
 
-  .contact-text{
+  .managment-box-text {
+    margin-top: 50px !important;
+  }
+
+  .website-box{
+    margin-top: 15px;
+  }
+
+  .block-chain-head {
+    margin-top: 50px;
+  }
+
+  .website-section{
+    margin-top: 50px !important;
+  }
+
+  .product-head{
+    margin-bottom: 50px;
+  }
+
+  .contact-text {
     position: relative;
     top: 3px;
   }
-  .phone-text{
+
+  .phone-text {
     position: relative;
     left: 40px;
   }
+
   /* .hide-on-mobile{
     display: none;
   } */
@@ -429,15 +454,13 @@
     text-align: center;
   }
 
-  
   /* .second-para {
     margin-left: 100px !important;
   } */
 
-  .industry-cards{
+  .industry-cards {
     margin-left: 5px !important;
   }
-
 
   .copy-rights-reserved-text {
     font-size: 11px !important;
@@ -466,17 +489,18 @@
     line-height: 23px;
   }
 
-  .second-br{
+  .second-br {
     display: none;
   }
 
   .box-container-space {
-  display: block;
-  height: 8px; /* or whatever space you need */
-}
+    display: block;
+    height: 8px;
+    /* or whatever space you need */
+  }
 
   .website-box {
-    margin-top: 50px;
+    /* margin-top: 20px; */
   }
 
   .first-paragraph {
@@ -587,11 +611,12 @@
 }
 
 @media (max-width:770px) and (min-width:430px) {
+
   /* .second-para {
     margin-left: 40px;
   } */
 
-  .hr-style{
+  .hr-style {
     display: none;
   }
 
@@ -602,7 +627,7 @@
     line-height: 30px;
   }
 
-  .last-paragraph{
+  .last-paragraph {
     font-size: 20px !important;
   }
 
@@ -617,13 +642,16 @@
     text-align: center !important;
     font-size: 13px;
   }
-  .hide-on-mobile{
+
+  .hide-on-mobile {
     display: none;
   }
-  .first-paragraph{
+
+  .first-paragraph {
     line-height: 30px;
   }
-  .box-container-text{
+
+  .box-container-text {
     margin-right: 10px;
   }
 }
@@ -651,6 +679,21 @@
     width: 70% !important;
   } */
 
+  .navbar-brand{
+    width: 120px !important;
+  }
+
+  .unwita-logo-img{
+    position: relative;
+    right: 70px !important;
+  }
+
+  .submit-btn {
+    font-size: 13px !important;
+    font-weight: normal;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
   .form-head {
     font-size: 30px;
@@ -917,6 +960,15 @@
 }
 
 @media (max-width:499px) {
+  .datascience-box-text{
+    margin-top: 0px !important;
+  }
+  .managment-box-text{
+    margin-top: 0px !important;
+  }
+  .product-head{
+    margin-bottom: 30px !important;
+  } 
   .card-style2 {
     left: 0px !important;
   }
@@ -930,22 +982,23 @@
 
   .arch-container h3 {
     position: relative;
-    bottom: 50px;
-    font-size: 25px;
+    bottom: 30px;
+    font-size: 30px;
+    /* margin: 2px; */
+    line-height: 30px;
+    font-weight: normal;
   }
 
-  .arch-content-img {
-    width: 50px;
-    position: relative;
-    bottom: 20px;
-  }
 
   #Footer {
     margin-top: 50px !important;
   }
 
   .arch-content-img {
-    margin: 10px;
+    width: 90px;
+    position: relative;
+    /* bottom: 30px; */
+    margin-bottom: 80px;
   }
 
   .box-container-text {
@@ -958,6 +1011,10 @@
 
   .card-style {
     width: 100% !important;
+  }
+
+  .industry-cards {
+    margin-left: 8px !important;
   }
 
 }
@@ -1155,20 +1212,46 @@
     margin-left: 10px;
   }
 
-  .website-box{
+  .contact-text {
+    position: relative;
+    left: 15%;
+  }
+
+  .phone-text {
+    position: relative;
+    left: 28%;
+  }
+
+  .website-box {
     margin-top: 90px;
   }
 
-  .managment-box-text{
-    margin-top: 50px !important;
+  .website-content {
+    margin-top: 20px;
   }
 
-  .card-style{
+  .product-head {
+    margin-bottom: 50px;
+  }
+
+  .industry-cards {
+    margin-left: 25px !important;
+  }
+
+  .datascience-box-text {
+    margin-top: 100px;
+  }
+
+  .card-style {
     width: 100%;
   }
 
-  .managment-box-text{
-    margin-top: 15px !important;
+  .block-chain-head {
+    margin-top: 50px !important;
+  }
+
+  .managment-box-text {
+    margin-top: 40px !important;
   }
 
   .input-style-messge {
@@ -1183,7 +1266,7 @@
 @media (max-width:1027px) {
   .our-products-section {
     margin-top: 30px;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
   }
 
   .industry-cards {
@@ -1211,6 +1294,16 @@
 @media (max-width:1450px) and (min-width:1027px) {
   .datascience-box-text {
     margin-top: 120px !important;
+  }
+
+  .contact-text {
+    position: relative;
+    left: 25% !important;
+  }
+
+  .phone-text {
+    position: relative;
+    left: 35% !important;
   }
 }
 
