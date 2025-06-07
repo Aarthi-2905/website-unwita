@@ -417,6 +417,10 @@
     margin-top: 15px;
   }
 
+  .website-content{
+    margin-top: 30px !important;
+  }
+
   .block-chain-head {
     margin-top: 50px;
   }
@@ -679,12 +683,13 @@
   } */
 
   .navbar-brand{
-    width: 120px !important;
+    width: 110px !important;
   }
 
   .unwita-logo-img{
     position: relative;
     right: 70px !important;
+    width: 90px;
   }
 
   .submit-btn {
@@ -1230,6 +1235,23 @@
     margin-left: 10px;
   }
 
+  .second-br {
+    display: none;
+  }
+
+  .box-container-space {
+    display: block;
+    height: 8px;
+    /* or whatever space you need */
+  }
+
+  .block-chain-head {
+    margin-bottom: 20px;
+  }
+  .block-chain-paragraph{
+    line-height: 35px;
+  }
+
   .contact-text {
     position: relative;
     left: 15%;
@@ -1241,7 +1263,7 @@
   }
 
   .website-box {
-    margin-top: 90px;
+    margin-top: 80px;
   }
 
   .website-content {
@@ -1273,14 +1295,18 @@
   }
 
   .input-style-messge {
-    width: 97% !important;
+    width: 100% !important;
   }
 
   .first-paragraph {
     font-size: 20px;
   }
   .small-level-askpert{
-    margin-top: 40px;
+    margin-top: 60px;
+  }
+  .box-container-text{
+    font-size: 17px;
+    line-height: 35px;
   }
 }
 
@@ -1290,9 +1316,21 @@
     /* margin-bottom: 40px; */
   }
 
+  .form-style{
+    margin-right: 30px;
+  }
+
   .industry-cards {
     margin-top: 70px;
     margin-bottom: 70px !important;
+  }
+  .navbar-brand{
+    width: 130px;
+  }
+  .unwita-logo-img{
+    position: relative;
+    right: 60px;
+    bottom: 4px;
   }
 }
 
