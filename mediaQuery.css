@@ -132,6 +132,7 @@
     margin: 0px !important;
   }
 
+
   .diamond-shape {
     width: 15px;
     height: 15px;
@@ -139,10 +140,9 @@
 
   .contact-text {
     position: relative;
-    left: 25px !important;
+    left: 19px !important;
     top: 5px;
   }
-
 
 
   .arch-content-img {
@@ -151,7 +151,7 @@
 
   .phone-text {
     position: relative;
-    left: 65px !important;
+    left: 57px !important;
   }
 
   .location-mobile-view {
@@ -683,7 +683,7 @@
   } */
 
   .navbar-brand{
-    width: 110px !important;
+    width: 120px !important;
   }
 
   .unwita-logo-img{
@@ -972,7 +972,12 @@
   
   .contact-item{
     margin-top: 0px !important;
-    margin-bottom: 3px;
+    margin-left: 7% !important;
+    /* margin-bottom: 3px; */
+  }
+
+  .phone-item{
+    margin-bottom: 10px !important;
   }
 
   .datascience-box-text{
@@ -1269,12 +1274,12 @@
 
   .contact-text {
     position: relative;
-    left: 15%;
+    left: 3%;
   }
 
   .phone-text {
     position: relative;
-    left: 28%;
+    left: 20%;
   }
 
   .website-box {
@@ -1340,7 +1345,7 @@
     margin-bottom: 70px !important;
   }
   .navbar-brand{
-    width: 140px;
+    width: 160px;
   }
   .unwita-logo-img{
     position: relative;
@@ -1372,12 +1377,12 @@
 
   .contact-text {
     position: relative;
-    left: 25% !important;
+    left: 15% !important;
   }
 
   .phone-text {
     position: relative;
-    left: 35% !important;
+    left: 28% !important;
   }
 }
 
