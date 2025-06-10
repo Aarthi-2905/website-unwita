@@ -6,7 +6,7 @@ html, body {
 }
 
 .unwita-logo-img{
-    width: 100px;
+    width: 120px;
     /* height: 30px; */
      transition: transform 0.3s ease, color 0.3s ease;
 }
@@ -71,7 +71,9 @@ nav {
 }
 
 .navbarand-name {
-    margin-left: 60px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 5px;
 }
 
 .website-color {

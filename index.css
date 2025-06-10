@@ -109,6 +109,10 @@ body {
     margin-bottom: 55px;
 }
 
+.the-box-head{
+line-height: 40px;
+}
+
 .arch-container {
     position: relative;
     width: 100%;
@@ -155,7 +159,15 @@ body {
     font-size: 32px;
     color: #ECD8B6;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
+}
+
+.record-text{
+    font-size: 26px !important;
+}
+
+.record-img{
+    width: 150px !important;
 }
 
 /* .arch-content i {
@@ -167,6 +179,9 @@ body {
     width: 100px;
 }
 
+.website-img{
+    width: 80px;
+}
 /* The Column Boxs styles  */
 
 .card-style {
@@ -287,3 +302,9 @@ body {
 .second-home-text{
     display: none;
   }
+
+  #Products,
+#Services,
+#Footer {
+  scroll-margin-top: 80px; /* Adjust based on your navbar height */
+}

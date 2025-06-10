@@ -104,8 +104,8 @@
   }
 
   .diamond-shape {
-    width: 15px;
-    height: 15px;
+    width: 13px;
+    height: 13px;
   }
 }
 
@@ -688,7 +688,8 @@
 
   .unwita-logo-img{
     position: relative;
-    right: 70px !important;
+    top: 2px;
+    right: 30px !important;
     width: 90px;
   }
 
@@ -755,8 +756,8 @@
     margin-right: 300px;
     z-index: 50;
     left: 75%;
-    width: 15px;
-    height: 15px;
+    width: 13px;
+    height: 13px;
   }
 
   /* .input-style-messge {
@@ -964,6 +965,16 @@
 }
 
 @media (max-width:499px) {
+  .arch-content h3{
+    font-size: 23px !important;
+    bottom: 0px !important;
+  }
+  
+  .contact-item{
+    margin-top: 0px !important;
+    margin-bottom: 3px;
+  }
+
   .datascience-box-text{
     margin-top: 0px !important;
   }
@@ -1018,10 +1029,14 @@
   }
 
   .arch-content-img {
-    width: 90px;
+    width: 75px;
     position: relative;
     /* bottom: 30px; */
     margin-bottom: 80px;
+  }
+
+  .record-img{
+    width: 120px !important;
   }
 
   .box-container-text {
@@ -1325,11 +1340,11 @@
     margin-bottom: 70px !important;
   }
   .navbar-brand{
-    width: 130px;
+    width: 140px;
   }
   .unwita-logo-img{
     position: relative;
-    right: 60px;
+    right: 30px;
     bottom: 4px;
   }
 }
