@@ -37,9 +37,9 @@
 }
 
 @media (max-width:1022px) {
-  .input-style-messge {
+  /* .input-style-messge {
     width: 95% !important;
-  }
+  } */
 }
 
 @media (max-width:994px) {
@@ -112,7 +112,7 @@
 @media (max-width:499px) and (min-width:335px) {
   .phone-text {
     position: relative;
-    left: 40px !important;
+    left: 38px !important;
   }
 
   .contact-text {
@@ -140,7 +140,7 @@
 
   .contact-text {
     position: relative;
-    left: 19px !important;
+    left: 18px !important;
     top: 5px;
   }
 
@@ -151,7 +151,7 @@
 
   .phone-text {
     position: relative;
-    left: 57px !important;
+    left: 56px !important;
   }
 
   .location-mobile-view {
@@ -1315,7 +1315,7 @@
   }
 
   .input-style-messge {
-    width: 100% !important;
+    width: 93% !important;
   }
 
   .first-paragraph {
@@ -1366,7 +1366,7 @@
   }
 
   .input-style-messge {
-    width: 88% !important;
+    width: 82% !important;
   }
 }
 

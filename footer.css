@@ -46,7 +46,7 @@
 
 .input-style-messge {
     background-color: #F0EBE3;
-    width: 630px;
+    width: 680px;
     height: 150px;
     border-radius: 25px;
     margin: 10px;
@@ -60,10 +60,12 @@
 
 .submit-btn {
     padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin: 10px;
     background-color: #099588;
     border: none;
-    font-size: 18px;
+    font-size: 15px;
     color: #ECD8B6;
     border-radius: 5px;
     /* font-family: 'lora'; */

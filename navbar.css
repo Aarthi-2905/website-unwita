@@ -58,7 +58,7 @@ nav {
     background-color: bisque;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
-
+    height: 55px;
 }
 
 .navbar-brand:hover{
