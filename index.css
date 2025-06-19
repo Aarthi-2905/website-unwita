@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;  /* The nav bar item when clicked then this go to that section with scrolling */
+}
+
 .home-style-left-col {
     /* margin-left: 60px; */
     margin-top: 150px;
@@ -59,6 +63,7 @@ body {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
+    letter-spacing: 1.1px;
 }
 
 .last-paragraph {
@@ -73,7 +78,8 @@ body {
     font-family: 'Lora';
     font-style: italic;
     color: #295757;
-    font-size: 25px;
+    font-size: 23px;
+    font-weight: 590;
 }
 
 /* Straight line style  */
@@ -102,7 +108,7 @@ body {
     color: #295757;
     font-size: 20px;
     text-align: left;
-    letter-spacing: 1.2px;
+    letter-spacing: 1.5px;
 }
 
 .website-content{
@@ -158,7 +164,7 @@ line-height: 40px;
     font-family: 'Playfair Display';
     font-size: 32px;
     color: #ECD8B6;
-    font-weight: bold;
+    font-weight: 600px;
     margin-bottom: 35px;
 }
 
@@ -190,7 +196,7 @@ line-height: 40px;
     border-radius: 150px 150px 0 0;
     overflow: hidden;
     background-color: #fff;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 2px 6px #295757;
     text-align: center;
 }
 
@@ -209,7 +215,7 @@ line-height: 40px;
     color: #295757;
     font-size: 24px;
     position: relative;
-    border-bottom: 3px solid #159C92;
+    /* border-bottom: 3px solid #159C92; */
 }
 
 .card-label::after {
@@ -292,7 +298,7 @@ line-height: 40px;
 
 .block-chain-paragraph {
     margin-bottom: 30px;
-    letter-spacing: 1.2px;
+    letter-spacing: 1.8px;
 }
 
 .small-level-askpert{
